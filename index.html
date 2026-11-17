@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Premium texnologiyalar va Apple-inspired mahsulotlar do'koni.">
+  <title>Apple Store — Innovation for Everyone</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="#" class="logo" aria-label="Bosh sahifa">
+      <svg viewBox="0 0 24 24" width="23" height="25" fill="currentColor">
+        <path d="M16.37 12.1c.02 2.14 1.88 2.85 1.9 2.86-.02.05-.3 1.04-.99 2.06-.6.88-1.22 1.76-2.2 1.78-.96.02-1.27-.57-2.37-.57s-1.45.55-2.36.59c-.95.04-1.68-.96-2.28-1.84-1.24-1.8-2.19-5.1-.92-7.33.63-1.11 1.76-1.81 2.99-1.83.93-.02 1.81.63 2.38.63.57 0 1.64-.78 2.77-.67.47.02 1.8.19 2.65 1.43-.07.04-1.58.92-1.57 2.89zM14.55 5.9c.5-.6.83-1.43.74-2.26-.72.03-1.6.48-2.12 1.08-.46.53-.87 1.37-.76 2.18.81.06 1.64-.41 2.14-1z"/>
+      </svg>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#store">Store</a>
+      <a href="#mac">Mac</a>
+      <a href="#ipad">iPad</a>
+      <a href="#iphone">iPhone</a>
+      <a href="#watch">Watch</a>
+      <a href="#airpods">AirPods</a>
+      <a href="#footer">Support</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="searchBtn" aria-label="Qidirish">⌕</button>
+      <button class="icon-btn cart-icon" id="cartBtn" aria-label="Savatcha">
+        ♧ <span id="cartCount">0</span>
+      </button>
+      <button class="menu-btn" id="menuBtn" aria-label="Menyu">☰</button>
+    </div>
+  </header>
+
+  <!-- SEARCH -->
+  <div class="search-panel" id="searchPanel">
+    <input type="text" id="searchInput" placeholder="Mahsulot qidirish...">
+    <button id="closeSearch" aria-label="Yopish">✕</button>
+  </div>
+
+  <main>
+    <!-- HERO 1 -->
+    <section class="hero hero-iphone" id="iphone">
+      <div class="hero-content">
+        <span class="eyebrow">YANGI AVLOD</span>
+        <h1>iPhone 17 Pro</h1>
+        <p>Kelajak texnologiyasi. Bugundan boshlanadi.</p>
+        <div class="hero-buttons">
+          <a href="#store" class="btn btn-blue">Batafsil</a>
+          <a href="#store" class="btn btn-outline">Sotib olish</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=1200&q=85" alt="Premium smartfon">
+      </div>
+    </section>
+
+    <!-- HERO 2 -->
+    <section class="hero hero-mac" id="mac">
+      <div class="hero-content">
+        <span class="eyebrow">CHEKSIZ IMKONIYATLAR</span>
+        <h1>MacBook Pro</h1>
+        <p>Kuch. Tezlik. Mukammallik.</p>
+        <div class="hero-buttons">
+          <a href="#store" class="btn btn-blue">Batafsil</a>
+          <a href="#store" class="btn btn-outline">Sotib olish</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1200&q=85" alt="MacBook noutbuk">
+      </div>
+    </section>
+
+    <!-- HERO 3 -->
+    <section class="hero hero-watch" id="watch">
+      <div class="hero-content">
+        <span class="eyebrow">SIZNING HAYOTINGIZ. SIZNING RITMINGIZ.</span>
+        <h1>Apple Watch</h1>
+        <p>Har bir lahzada siz bilan.</p>
+        <div class="hero-buttons">
+          <a href="#store" class="btn btn-blue">Batafsil</a>
+          <a href="#store" class="btn btn-outline">Sotib olish</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=1200&q=85" alt="Aqlli soat">
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products-section" id="store">
+      <div class="section-heading">
+        <span class="eyebrow">BIZNING KOLLEKSIYA</span>
+        <h2>Eng yaxshi texnologiyalar.</h2>
+        <p>Hayotingiz uchun yaratilgan innovatsiyalar.</p>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+
+        <article class="product-card" data-name="iPhone 17 Pro">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=700&q=85" alt="iPhone">
+          </div>
+          <h3>iPhone 17 Pro</h3>
+          <p>Kuchli kamera. Ajoyib imkoniyatlar.</p>
+          <strong>15 999 000 so'm</strong>
+          <button class="buy-btn" data-name="iPhone 17 Pro" data-price="15999000">Savatga qo'shish</button>
+        </article>
+
+        <article class="product-card" data-name="MacBook Pro">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=700&q=85" alt="MacBook">
+          </div>
+          <h3>MacBook Pro</h3>
+          <p>Professional darajadagi quvvat.</p>
+          <strong>24 999 000 so'm</strong>
+          <button class="buy-btn" data-name="MacBook Pro" data-price="24999000">Savatga qo'shish</button>
+        </article>
+
+        <article class="product-card" data-name="iPad Pro">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=700&q=85" alt="iPad">
+          </div>
+          <h3>iPad Pro</h3>
+          <p>Ijodkorlik uchun yangi imkoniyat.</p>
+          <strong>12 499 000 so'm</strong>
+          <button class="buy-btn" data-name="iPad Pro" data-price="12499000">Savatga qo'shish</button>
+        </article>
+
+        <article class="product-card" data-name="Apple Watch">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=700&q=85" alt="Apple Watch">
+          </div>
+          <h3>Apple Watch</h3>
+          <p>Sog'liq va faollik nazorati.</p>
+          <strong>5 499 000 so'm</strong>
+          <button class="buy-btn" data-name="Apple Watch" data-price="5499000">Savatga qo'shish</button>
+        </article>
+
+        <article class="product-card" data-name="AirPods Pro">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=700&q=85" alt="AirPods">
+          </div>
+          <h3>AirPods Pro</h3>
+          <p>Ovozning yangi darajasi.</p>
+          <strong>3 499 000 so'm</strong>
+          <button class="buy-btn" data-name="AirPods Pro" data-price="3499000">Savatga qo'shish</button>
+        </article>
+
+        <article class="product-card" data-name="Apple TV">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=700&q=85" alt="Smart TV">
+          </div>
+          <h3>Apple TV</h3>
+          <p>Uyda kino zavqi.</p>
+          <strong>2 499 000 so'm</strong>
+          <button class="buy-btn" data-name="Apple TV" data-price="2499000">Savatga qo'shish</button>
+        </article>
+
+      </div>
+      <p class="no-results" id="noResults" hidden>Mahsulot topilmadi.</p>
+    </section>
+  </main>
+
+  <!-- CART DRAWER -->
+  <div class="overlay" id="overlay"></div>
+
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h2>Savatchangiz</h2>
+      <button id="closeCart" aria-label="Savatchani yopish">✕</button>
+    </div>
+    <div id="cartItems" class="cart-items">
+      <p class="empty-cart">Savatchangiz hozircha bo'sh.</p>
+    </div>
+    <div class="cart-footer">
+      <div class="total-row">
+        <span>Jami:</span>
+        <strong id="cartTotal">0 so'm</strong>
+      </div>
+      <button class="checkout-btn" id="checkoutBtn">Buyurtma berish</button>
+    </div>
+  </aside>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-content">
+      <div>
+        <h3>Innovation.</h3>
+        <p>Texnologiya va dizayn uyg'unligi.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#store">Store</a>
+        <a href="#mac">Mac</a>
+        <a href="#iphone">iPhone</a>
+        <a href="#watch">Watch</a>
+        <a href="#footer">Aloqa</a>
+      </div>
+    </div>
+    <div class="copyright">
+      © 2026 Premium Store. Barcha huquqlar himoyalangan.
+      <p>Bu mustaqil Apple-inspired demo loyiha bo'lib, Apple Inc. bilan bog'liq emas.</p>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+</html>
